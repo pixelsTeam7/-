@@ -1,18 +1,32 @@
-Group YAT320
- اسم المجموعة : 
-YAT320N_ONL2_DRT2_G3_DEPI2
-اسم المشروع: كودي
-Figma Link:
-https://www.figma.com/design/BjqzfIsqpJD7FzNyghcTdi/codey-application?node-id=675-104&t=dAYDdbSQ5ffud339-1
-Google Drive:
-https://drive.google.com/drive/folders/1r7qHHtftUE5pmcss1DJNoXFSeAZ4X-sU?usp=sharing
-اسماء المتدربين:
-1- Nehal Elsaid Elsayed Omar (Team Leader)
-2- Amira Mohamed Taha El Kastamony
-3- Hager Hussein Abdel Mohsen El Sayed Omar
-4- Lamees Ibraheem Elsayed Sobeih
-5- Mariam Mamdouh Moris
-6- Sally Ali Ahmed Nada
+# codi 
 
-لينك git hub
-https://github.com/pixelsTeam7/codiProject 
+A new Flutter project.
+
+## Getting Started
+
+FlutterFlow projects are built to run on the Flutter _stable_ release.
+
+## Integration Tests
+
+To test on a real iOS / Android device, first connect the device and run the following command from the root of the project:
+
+```bash
+flutter test integration_test/test.dart
+```
+
+To test on a web browser, first launch `chromedriver` as follows:
+```bash
+chromedriver --port=4444
+```
+
+Then from the root of the project, run the following command:
+```bash
+flutter drive \
+  --driver=test_driver/integration_test.dart \
+  --target=integration_test/test.dart \
+  -d chrome
+```
+
+Find more information about running Flutter integration tests [here](https://docs.flutter.dev/cookbook/testing/integration/introduction#5-run-the-integration-test).
+
+Refer to this guide for instructions on running the tests on [Firebase Test Lab](https://github.com/flutter/flutter/tree/main/packages/integration_test#firebase-test-lab).

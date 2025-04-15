@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "419736810907",
+    "project_id": "codi-dfsg21",
+    "storage_bucket": "codi-dfsg21.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419736810907:android:803bca4872e1eb852cdd3e",
+        "android_client_info": {
+          "package_name": "com.mycompany.codi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqWY8IV08r-6uft72cJNgdwhA8rj8nMok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
